@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrinceCO Pharmaceutical - Products</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="topnav" id="myTopnav">
+            <a href="home.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="products.html" class="active">Products</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Our Products</h1>
+            <img src="images/Screenshot_20251202_172510_Google(2).jpg" alt="Pharmaceutical Products">
+            <table>
+                <thead>
+                    <tr><th>Product Name</th><th>Type</th><th>Price</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Paracetamol</td><td>Tablet</td><td>¢5</td></tr>
+                    <tr><td>Amoxicillin</td><td>Capsule</td><td>¢8</td></tr>
+                    <tr><td>Cough Syrup</td><td>Liquid</td><td>¢6</td></tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Product Categories</h2>
+            <ol>
+                <li>Pain Relief</li>
+                <li>Antibiotics</li>
+                <li>Supplements</li>
+            </ol>
+            <h2>Features</h2>
+            <ul>
+                <li>FDA Approved</li>
+                <li>Affordable Prices</li>
+                <li>Wide Distribution</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 PrinceCO Pharmaceutical. All rights reserved.</p>
+    </footer>
+    <script>
+        function toggleNav() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+</html>

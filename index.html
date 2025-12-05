@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrinceCO Pharmaceutical - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="topnav" id="myTopnav">
+            <a href="home.html" class="active">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="products.html">Products</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+    <main>
+          <section class="gallery">
+            <h1>Gallery</h1>
+            <figure>
+                <img src="images/20251202_175739.jpg" alt="PrinceCO Pharmaceutical Gallery">
+                <figcaption>PrinceCO Pharmaceutical - Dedicated to Quality Healthcare</figcaption>
+            </figure>
+        </section>
+        <section class="hero">
+            <h1>Welcome to PrinceCO Pharmaceutical</h1>
+            <p>Your trusted partner in health and wellness.</p>
+            <img src="images/Screenshot_20251202_172510_Google.jpg" alt="Pharmaceutical company">
+        </section>
+        <section>
+            <h2>Our Promise</h2>
+            <ul>
+                <li>Quality Medicines</li>
+                <li>Expert Advice</li>
+                <li>Community Care</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Quick Links</h2>
+            <ol>
+                <li><a href="products.html">View Products</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ol>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 PrinceCO Pharmaceutical. All rights reserved.</p>
+    </footer>
+    <script>
+        function toggleNav() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+</html>

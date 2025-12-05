@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrinceCO Pharmaceutical - About Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="topnav" id="myTopnav">
+            <a href="home.html">Home</a>
+            <a href="about.html" class="active">About Us</a>
+            <a href="products.html">Products</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>About PrinceCO Pharmaceutical</h1>
+            <p>PrinceCO Pharmaceutical is dedicated to improving health and wellness through quality medicines and expert care.</p>
+            <img src="images/Screenshot_20251202_172510_Google(1).jpg" alt="PrinceCO Team">
+        </section>
+        <section>
+            <h2>Company Milestones</h2>
+            <table>
+                <thead>
+                    <tr><th>Year</th><th>Milestone</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>2010</td><td>Founded</td></tr>
+                    <tr><td>2015</td><td>First product launch</td></tr>
+                    <tr><td>2020</td><td>Expanded nationwide</td></tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Our Values</h2>
+            <ul>
+                <li>Integrity</li>
+                <li>Innovation</li>
+                <li>Compassion</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 PrinceCO Pharmaceutical. All rights reserved.</p>
+    </footer>
+    <script>
+        function toggleNav() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+</html>

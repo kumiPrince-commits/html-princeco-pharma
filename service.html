@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrinceCO Pharmaceutical - Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="topnav" id="myTopnav">
+            <a href="home.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="products.html">Products</a>
+            <a href="services.html" class="active">Services</a>
+            <a href="contact.html">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Our Services</h1>
+            <img src="images/Screenshot_20251202_172550_Google.jpg" alt="Healthcare Services">
+            <table>
+                <thead>
+                    <tr><th>Service</th><th>Description</th><th>Price</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Consultation</td><td>Expert health advice</td><td>¢20</td></tr>
+                    <tr><td>Delivery</td><td>Home delivery of medicines</td><td>¢5</td></tr>
+                    <tr><td>Health Screening</td><td>Basic health checks</td><td>¢15</td></tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Benefits</h2>
+            <ol>
+                <li>Professional Staff</li>
+                <li>Fast Service</li>
+                <li>Reliable Support</li>
+            </ol>
+            <ul>
+                <li>24/7 Availability</li>
+                <li>Affordable Packages</li>
+                <li>Personalized Care</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 PrinceCO Pharmaceutical. All rights reserved.</p>
+    </footer>
+    <script>
+        function toggleNav() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+</html>
